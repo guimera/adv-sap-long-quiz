@@ -33,47 +33,47 @@ While their differences are:
 
 7. List and discuss the benefits of using Web Services.
 - Quality
-  It allows the construction of services by assembling existing services. Where it is reasonable to expect that such services have undergone testing and possess known performance characteristics. 
+  - It allows the construction of services by assembling existing services. Where it is reasonable to expect that such services have undergone testing and possess known performance characteristics. 
 
 - Cost
-  Assembling such systems from ready-made web services significantly reduces the expense of developing new frameworks. The clients may receive the benefits resulting from these cost decreases. The clients remain to win from cost cuts and proficiency got by web administration.
+  - Assembling such systems from ready-made web services significantly reduces the expense of developing new frameworks. The clients may receive the benefits resulting from these cost decreases. The clients remain to win from cost cuts and proficiency got by web administration.
 
 - Interoperability 
-  It has highest Interoperability priority. Its objectives are to allow programming applications to communicate with each other and exchange data or services among themselves. For instance, .NET applications can communicate with Java web services and the other way around. It is used to ensure the independence of the technology and application platforms.
+  - It has highest Interoperability priority. Its objectives are to allow programming applications to communicate with each other and exchange data or services among themselves. For instance, .NET applications can communicate with Java web services and the other way around. It is used to ensure the independence of the technology and application platforms.
 
 8. List and discuss the characteristics of Web Services.
 - XML-based
-  a web service uses XML at information representation and record transportation layer. 
+  - a web service uses XML at information representation and record transportation layer. 
 
 - Coarse-grained
-  few objects hold a lot of related data. It wraps one or more fine-grained services together into a coarse-grained service. Has a broader functionality in comparison to fine-grained service.
+  - few objects hold a lot of related data. It wraps one or more fine-grained services together into a coarse-grained service. Has a broader functionality in comparison to fine-grained service.
 
 - Loosely Coupled
-  it communicates by passing XML message to each other via a web API. Web API adds a layer of abstraction to the environment that makes the connection adaptable and flexible. A web service supports connections between systems.
+  - it communicates by passing XML message to each other via a web API. Web API adds a layer of abstraction to the environment that makes the connection adaptable and flexible. A web service supports connections between systems.
 
 - Capability to be Synchronous and Asynchronous
-  Synchronous Web services is served by RPC-oriented messaging. Which invoked over existing Web protocols by a client who waits for a response. 
-  Asynchronous Web services is a crucial factor in enabling loosely coupled system. Which invoked over existing Web protocols by a client who does not wait for a response. Also, it is often used for document-oriented messaging.
+  - Synchronous Web services is served by RPC-oriented messaging. Which invoked over existing Web protocols by a client who waits for a response. 
+  - Asynchronous Web services is a crucial factor in enabling loosely coupled system. Which invoked over existing Web protocols by a client who does not wait for a response. Also, it is often used for document-oriented messaging.
 
 - Remote Procedure Calls (RPCs) 
-  is a software communication protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details. Which is used to call other processes on the remote systems like a local system.
+  - is a software communication protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details. Which is used to call other processes on the remote systems like a local system.
 
 9. List and discuss the distinct roles in Web Services Architecture.
 - Provider 
-  makes the web service and builds it obtainable to client application who wants to use it.
+  - makes the web service and builds it obtainable to client application who wants to use it.
 
 - Requestor 
-  is the client application that requires contacting a web service. 
+  - is the client application that requires contacting a web service. 
 
 - Broker 
-  the application offers a contact to the UDDI.
+  - the application offers a contact to the UDDI.
 
 10. List and discuss the Web Services Components.
 - SOAP (Simple Object Access Protocol)
-  an XML based protocol for accessing web services and platform independent and language independent. It can be used with Java, .Net or PHP language on any platform. A W3C recommendation for communication between applications.
+  - an XML based protocol for accessing web services and platform independent and language independent. It can be used with Java, .Net or PHP language on any platform. A W3C recommendation for communication between applications.
 
 - UDDI (Universal Description, Discovery, and Integration)
-  an XML based standard for describing, publishing, and finding webservices. Can communicate via SOAP and uses WSDL to describe interfaces to webservices.
+  - an XML based standard for describing, publishing, and finding webservices. Can communicate via SOAP and uses WSDL to describe interfaces to webservices.
 
 - WSDL (Web Services Description Language)
-  an XML based language for describing webservices and how to access them and exchange in decentralized and distributed environments. An integral part of UDDI. It allows people and other companies to access the service.
+  - an XML based language for describing webservices and how to access them and exchange in decentralized and distributed environments. An integral part of UDDI. It allows people and other companies to access the service.
